@@ -1,0 +1,3 @@
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/jdk-1.8.0_102/bin:/opt/apache-maven-3.6.2/bin"
+JAVA_HOME="/usr/lib/jvm/jdk-1.8.0_102"
+M2_HOME="/opt/apache-maven-3.6.2"
