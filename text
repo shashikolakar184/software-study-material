@@ -30,3 +30,6 @@ sonar.sources=src
 #sonar.sourceEncoding=UTF-8
 
 [root@localhost conf]#
+
+how to execute sonar scanner:
+sh "/opt/sonar-scanner-3.2.0.1227-linux/bin/sonar-scanner -Dsonar.java.coveragePlugin=jacoco   -Dsonar.junit.reportPaths=target/surefire-reports -Dsonar.projectKey=myProject   -Dsonar.java.binaries=. -Dsonar.projectVersion=1.1.1"
