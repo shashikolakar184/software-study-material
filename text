@@ -15,3 +15,18 @@ export PATH=$PATH:/usr/lib/jvm/java-1.8.0-openjdk
 
 sonar scanner link:
 sudo wget https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.2.0.1227-linux.zip
+[root@localhost conf]# pwd
+/opt/sonar-scanner-3.2.0.1227-linux/conf
+[root@localhost conf]# vi sonar-scanner.properties
+[root@localhost conf]# cat sonar-scanner.properties
+#Configure here general information about the environment, such as SonarQube server connection details for example
+#No information about specific project should appear here
+
+#----- Default SonarQube server
+sonar.host.url=http://localhost:9000
+sonar.sources=src
+
+#----- Default source code encoding
+#sonar.sourceEncoding=UTF-8
+
+[root@localhost conf]#
